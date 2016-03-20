@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41EB4201C9E5587004CBDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41EB41F1C9E5587004CBDDF /* AppDelegate.swift */; };
+		C41EB4221C9E5587004CBDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41EB4211C9E5587004CBDDF /* ViewController.swift */; };
+		C41EB4251C9E5587004CBDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41EB4231C9E5587004CBDDF /* Main.storyboard */; };
+		C41EB4271C9E5587004CBDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41EB4261C9E5587004CBDDF /* Assets.xcassets */; };
+		C41EB42A1C9E5587004CBDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41EB4281C9E5587004CBDDF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C41EB41C1C9E5587004CBDDF /* JYPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41EB41F1C9E5587004CBDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41EB4211C9E5587004CBDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41EB4241C9E5587004CBDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41EB4261C9E5587004CBDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41EB4291C9E5587004CBDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C41EB42B1C9E5587004CBDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41EB4191C9E5587004CBDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41EB4131C9E5587004CBDDF = {
+			isa = PBXGroup;
+			children = (
+				C41EB41E1C9E5587004CBDDF /* JYPhotoBrowserDemo */,
+				C41EB41D1C9E5587004CBDDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41EB41D1C9E5587004CBDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41EB41C1C9E5587004CBDDF /* JYPhotoBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41EB41E1C9E5587004CBDDF /* JYPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C41EB41F1C9E5587004CBDDF /* AppDelegate.swift */,
+				C41EB4211C9E5587004CBDDF /* ViewController.swift */,
+				C41EB4231C9E5587004CBDDF /* Main.storyboard */,
+				C41EB4261C9E5587004CBDDF /* Assets.xcassets */,
+				C41EB4281C9E5587004CBDDF /* LaunchScreen.storyboard */,
+				C41EB42B1C9E5587004CBDDF /* Info.plist */,
+			);
+			path = JYPhotoBrowserDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41EB41B1C9E5587004CBDDF /* JYPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41EB42E1C9E5587004CBDDF /* Build configuration list for PBXNativeTarget "JYPhotoBrowserDemo" */;
+			buildPhases = (
+				C41EB4181C9E5587004CBDDF /* Sources */,
+				C41EB4191C9E5587004CBDDF /* Frameworks */,
+				C41EB41A1C9E5587004CBDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYPhotoBrowserDemo;
+			productName = JYPhotoBrowserDemo;
+			productReference = C41EB41C1C9E5587004CBDDF /* JYPhotoBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41EB4141C9E5587004CBDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李少帅";
+				TargetAttributes = {
+					C41EB41B1C9E5587004CBDDF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W8DW9BEXQX;
+					};
+				};
+			};
+			buildConfigurationList = C41EB4171C9E5587004CBDDF /* Build configuration list for PBXProject "JYPhotoBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41EB4131C9E5587004CBDDF;
+			productRefGroup = C41EB41D1C9E5587004CBDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41EB41B1C9E5587004CBDDF /* JYPhotoBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41EB41A1C9E5587004CBDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41EB42A1C9E5587004CBDDF /* LaunchScreen.storyboard in Resources */,
+				C41EB4271C9E5587004CBDDF /* Assets.xcassets in Resources */,
+				C41EB4251C9E5587004CBDDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41EB4181C9E5587004CBDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41EB4221C9E5587004CBDDF /* ViewController.swift in Sources */,
+				C41EB4201C9E5587004CBDDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C41EB4231C9E5587004CBDDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41EB4241C9E5587004CBDDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C41EB4281C9E5587004CBDDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41EB4291C9E5587004CBDDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41EB42C1C9E5587004CBDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41EB42D1C9E5587004CBDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41EB42F1C9E5587004CBDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.JYPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C41EB4301C9E5587004CBDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.JYPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41EB4171C9E5587004CBDDF /* Build configuration list for PBXProject "JYPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41EB42C1C9E5587004CBDDF /* Debug */,
+				C41EB42D1C9E5587004CBDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41EB42E1C9E5587004CBDDF /* Build configuration list for PBXNativeTarget "JYPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41EB42F1C9E5587004CBDDF /* Debug */,
+				C41EB4301C9E5587004CBDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41EB4141C9E5587004CBDDF /* Project object */;
+}
